@@ -1,0 +1,149 @@
+baseURL: https://mattmajestic.com/
+languageCode: en
+title: 'A Majestic Resume'
+theme: hugo-devresume-theme
+googleAnalytics: UA-XXXXXXX-Y
+params:
+  author: Matt Majestic
+  awards:
+    enable: no
+    list:
+      - body: Microsoft lorem ipsum
+        date: '2019'
+        name: Award Lorem Ipsum
+      - body: Oracle Aenean
+        date: '2017'
+        name: Award Donec Sodales
+  contact:
+    enable: yes
+    list:
+      # - icon: fas fa-phone-square
+      #   text: 0123 4567 890
+      #   url: tel:#
+      - icon: fas fa-envelope-square
+        text: mattmajestic@apprazv.com
+        url: mailto:#
+      - icon: fas fa-globe
+        text: www.mattmajestic.com
+        url: '#'
+    location: Puerto Rico
+  description: DevResume - Bootstrap 4 Resume/CV Template For Software Developers
+  education:
+    enable: yes
+    list:
+      - dates: 2014 - 2015
+        degree: MS in Computer Science
+        university: Clemson University
+      - dates: 2010 - 2014
+        degree: BS Psychology & History
+        university: Berry College
+  experience:
+    enable: yes
+    list:
+      - company: Cointel Finance
+        dates: 2019 - Present
+        details: Programmed an arbitrage bot in Web3.py. Created data pipelines for storage of arbitrage opportunities for future analytics.
+        items:
+          - details: Pipeline was done with an on-prem server config primarily using Docker images of custom websockets to Web3 Contract ABIs.
+          - details: Trade execution contract was compiled & deployed via Remix & Solidity.
+        title: Co-Founder
+      - company: Penn State University
+        dates: May 2021 - December 2021
+        details: Organized and cleaned years of Graduate Student code for a cohesive module set of R shiny code to provide professors the ability to upload and assess students in real time.
+        items:
+          - details: Configure MFA for instant class and instruction material.
+          - details: Aggregated years of individual RMDs from grad students in order to provide a complete UI of years of web app dev for the university.
+          - details: Part of a $500,000 grant for the Dr. Chow and Dr. Pearl for social science & cancer research.
+        title: Full Stack Developer
+      - company: WarnerMedia
+        dates: April 2021 - November 2021
+        details: Brought on to help scale data pipelines, REST APIs, and web applications for CNN.
+        items:
+          - details: Coded R Shiny app and data pipeline to provide analyst with quality data and validation checks for accurate reporting all using R & Python with housing data in Snowflake.
+          - details: Constructed modules with golem to provide app code as a package.
+          - details: 
+        title: R Programmer
+      - company: American Board of Surgeons
+        dates: May 2021 - June 2021
+        details: Scaled an application for oral exam review to determine if a candidate passed doctoral boards.
+        title: Full Stack Consultant
+      - company: McAfee
+        dates: November 2020 - March 2021
+        details: Contracted to scale and build shiny apps for massive data distillation for model building for enhanced cross sell of products in the McAfee portfolio via optimization of web effectiveness.
+        title: R Shiny Developer
+      - company: Coca Cola Beverages Florida
+        dates: August 2020 - November 2020
+        details: Contracted to redesign and scale an R Shiny app for a pricing application to existing and potential merchants of Coca Cola Products in Florida. 
+        items:
+          - details: Configured Linux (Debian) environment hosting Data Science SDK including R Shiny, Jupyter Notebooks, Docker, H20, & Spark.
+          - details: Developed predictive application with a boasted decision tree model using Azure ML API predicting the potential revenue of prospective Coca Cola customers with outputs used to construct contracts with merchants.
+        title: R Shiny Developer
+  information:
+    enable: yes
+    list:
+      - items:
+          - details: 2015 · The Role of Affect from a Life History Theory Perspective
+        title: Papers
+      - details: Soccer, Poker, Coding, Traveling
+        title: Interests
+  interests:
+    enable: yes
+    list:
+      - name: Soccer
+      - name: Poker
+      - name: Coding
+      - name: Travelling
+  languages:
+    enable: yes
+    list:
+      - level: Native
+        name: English
+  primaryColor: '#54B689'
+  profile:
+    avatar: mm_gh_small.png
+    enable: yes
+    name: Matt Majestic
+    tagline: Programmer/Application Developer
+  projects:
+    enable: yes
+    list:
+      - meta: Open Source
+        tagline: Created shinyCRM as an open-surce ciode set for a CRM meant more for basic businesses & SMBs
+        title: shinyCRM
+      - meta: Open Source
+        tagline: SP 500 time series forecasting using the Facebook prophet package
+        title: SP 500 Forecasting
+  skills:
+    enable: yes
+    list:
+      - items:
+          - details: R
+          - details: Python
+          - details: Docker
+          - details: Linux
+          - details: Apis
+          - details: Databases
+          - details: Javascript
+        title: Technical
+      - items:
+          - details: Effective communication
+          - details: Team player
+          - details: Strong problem solver
+          - details: Good time management
+        title: Professional
+  social:
+    enable: yes
+    list:
+      - icon: fab fa-github-square
+        title: mattmajestic
+        url: //github.com/mattmajestic
+      - icon: fab fa-linkedin
+        title: matthew-majestic
+        url: //linkedin.com/in/matthew-majestic
+      # - icon: fab fa-twitter-square
+      #   title: '@username'
+      #   url: //twitter.com/username
+  summary:
+    enable: yes
+    text: Data Science practitioner with experience with using a wide array of software, financial, and common-sense tools to create actionable insights and develop specific initiatives leading to profitable business decisions.
+  textPrimaryColor: '#292929'
