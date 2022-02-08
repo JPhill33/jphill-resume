@@ -32,7 +32,7 @@ params:
     enable: yes
     list:
       - dates: 2014 - 2015
-        degree: MS in Computer Science
+        degree: MS in Market Research
         university: Clemson University
       - dates: 2010 - 2014
         degree: BS Psychology & History
@@ -41,7 +41,7 @@ params:
     enable: yes
     list:
       - company: Cointel Finance
-        dates: 2019 - Present
+        dates: December 2020 - Present
         details: Programmed an arbitrage bot in Web3.py. Created data pipelines for storage of arbitrage opportunities for future analytics.
         items:
           - details: Pipeline was done with an on-prem server config primarily using Docker images of custom websockets to Web3 Contract ABIs.
