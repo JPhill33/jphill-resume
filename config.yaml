@@ -42,11 +42,13 @@ params:
     list:
       - company: Cointel Finance
         dates: December 2020 - Present
-        details: Programmed an arbitrage bot in Web3.py. Created data pipelines for storage of arbitrage opportunities for future analytics.
+        details: Developed a crypto & NFT aggregation wallet for effective financial modeling ofyour portfolio.
         items:
-          - details: Pipeline was done with an on-prem server config primarily using Docker images of custom websockets to Web3 Contract ABIs.
-          - details: Trade execution contract was compiled & deployed via Remix & Solidity.
-        title: Co-Founder
+          - details: Aggregated dozens of APIs for wallet integrations to get a holistic views of crypto & NFT portfolios.
+          - details: Coded tax functions to see implications of short & long term terms gains on DeFi assets.
+          - details: Provide scratch made authentication along with Google Single Sign On.
+          - details: Payment integration with Stripe.
+        title: CTO
       - company: Penn State University
         dates: May 2021 - December 2021
         details: Organized and cleaned years of Graduate Student code for a cohesive module set of R shiny code to provide professors the ability to upload and assess students in real time.
