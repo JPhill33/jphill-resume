@@ -1,4 +1,4 @@
-baseURL: https://mattmajestic.com/
+baseURL: https://mattmajestic-resume.netlify.app/
 languageCode: en
 title: 'A Majestic Resume'
 theme: hugo-devresume-theme
