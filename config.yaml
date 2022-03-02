@@ -31,12 +31,9 @@ params:
   education:
     enable: yes
     list:
-      - dates: 2014 - 2015
-        degree: MS in Market Research
-        university: Clemson University
-      - dates: 2010 - 2014
-        degree: BS Psychology & History
-        university: Berry College
+      - dates: 2013 - 2016
+        degree: BBA International Business - Economics Focus
+        university: Mercer University
   experience:
     enable: yes
     list:
@@ -48,8 +45,8 @@ params:
           - details: Coded tax functions to see implications of short & long term terms gains on DeFi assets.
           - details: Provide scratch made authentication along with Google Single Sign On.
           - details: Payment integration with Stripe.
-        title: CTO
-      - company: Penn State University
+        title: 
+      - company: 
         dates: May 2021 - December 2021
         details: Organized and cleaned years of Graduate Student code for a cohesive module set of R shiny code to provide professors the ability to upload and assess students in real time.
         items:
