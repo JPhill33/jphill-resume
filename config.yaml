@@ -1,10 +1,10 @@
-baseURL: https://mattmajestic-resume.netlify.app/
+baseURL: https://jphill-resume.netlify.app/
 languageCode: en
-title: 'A Majestic Resume'
+title: 'Josh Phillips Resume'
 theme: hugo-devresume-theme
 googleAnalytics: UA-XXXXXXX-Y
 params:
-  author: Matt Majestic
+  author: Josh Phillips
   awards:
     enable: no
     list:
@@ -21,12 +21,12 @@ params:
       #   text: 0123 4567 890
       #   url: tel:#
       - icon: fas fa-envelope-square
-        text: mattmajestic@apprazv.com
+        text: joshuataylorphillips@gmail.com
         url: mailto:#
       - icon: fas fa-globe
-        text: www.mattmajestic.com
+        text: www.cointel.finance
         url: '#'
-    location: Puerto Rico
+    location: Atlanta, GA
   description: DevResume - Bootstrap 4 Resume/CV Template For Software Developers
   education:
     enable: yes
